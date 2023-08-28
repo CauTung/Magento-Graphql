@@ -1,0 +1,3 @@
+type ProductInterface {
+    specifications: String @resolver(class: "AHT\\CustomAttribute\\Model\\Resolver\\CustomAttributes")
+}
